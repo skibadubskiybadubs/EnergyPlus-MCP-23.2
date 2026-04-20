@@ -88,7 +88,7 @@
 ! Environmental Emissions:        None
 ! Utility Tariffs:                None
 
-  Version,25.1;
+  Version,23.2;
 
   Timestep,4;
 
@@ -380,10 +380,6 @@
 
   Output:Variable,*,Zone Mean Air Temperature,hourly;
 
-  Output:Variable,*,Zone Operative Temperature,hourly; !- Zone Average [C]
-
-  Output:Variable,ZONE ONE,Zone Wetbulb Globe Temperature,hourly;
-
   Output:Variable,*,Zone Total Internal Latent Gain Energy,hourly;
 
   Output:Variable,*,Zone Mean Radiant Temperature,hourly;
@@ -462,3 +458,4 @@
     0;                       !- Fraction Lost
 
   Schedule:Constant,AlwaysOn,On/Off,1.0;
+

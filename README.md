@@ -1,9 +1,11 @@
-# EnergyPlus MCP Server
+# EnergyPlus MCP Server (v23.2 Fork)
+
+> **Note:** This is a fork of [LBNL-ETA/EnergyPlus-MCP](https://github.com/LBNL-ETA/EnergyPlus-MCP) adapted to work with **EnergyPlus 23.2.0** (the original targets EnergyPlus 25.1.0).
 
 A Model Context Protocol (MCP) server that provides **35 comprehensive tools** for working with EnergyPlus building energy simulation models. This server enables AI assistants and other MCP clients to load, validate, modify, and analyze EnergyPlus IDF files through a standardized interface.
 
 > **Version**: 0.1.0  
-> **EnergyPlus Compatibility**: 25.1.0  
+> **EnergyPlus Compatibility**: 23.2.0  
 > **Python**: 3.10+
 
 <details open>
@@ -170,7 +172,7 @@ The easiest development setup with all dependencies pre-configured.
 
 2. Click "Reopen in Container" when prompted (or press `Ctrl+Shift+P` → "Dev Containers: Reopen in Container")
 
-3. The container automatically installs EnergyPlus 25.1.0 and all dependencies
+3. The container automatically installs EnergyPlus 23.2.0 and all dependencies
 
 #### Docker Setup
 
@@ -198,7 +200,7 @@ For local development (requires EnergyPlus installation):
 **Prerequisites:**
 - Python 3.10+
 - [uv package manager](https://github.com/astral-sh/uv)
-- [EnergyPlus 25.1.0](https://github.com/NREL/EnergyPlus/releases)
+- [EnergyPlus 23.2.0](https://github.com/NREL/EnergyPlus/releases/tag/v23.2.0)
 
 ```bash
 # Clone and install

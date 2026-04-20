@@ -21,11 +21,11 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 # ----------------------------------------------------------------------------- 
-# 2. EnergyPlus 25.1.0 (auto-detect host architecture)
-# ----------------------------------------------------------------------------- 
-ARG EPLUS_VER=25.1.0
-ARG EPLUS_HASH=68a4a7c774                    # update when bumping version
-ARG EPLUS_PREFIX=/app/software/EnergyPlusV25-1-0
+# 2. EnergyPlus 23.2.0 (auto-detect host architecture)
+# -----------------------------------------------------------------------------
+ARG EPLUS_VER=23.2.0
+ARG EPLUS_HASH=7636e6b3e9                    # update when bumping version
+ARG EPLUS_PREFIX=/app/software/EnergyPlusV23-2-0
 
 # Compute EPLUS_DIST based on TARGETPLATFORM and then download/unpack
 RUN set -eux; \

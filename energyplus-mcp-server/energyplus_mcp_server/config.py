@@ -22,7 +22,7 @@ class EnergyPlusConfig:
     idd_path: str = ""
     installation_path: str = ""
     executable_path: str = ""
-    version: str = "25.1.0"
+    version: str = "23.2.0"
     weather_data_path: str = ""
     default_weather_file: str = ""
     example_files_path: str = ""
@@ -88,7 +88,7 @@ class Config:
             )
         else:
             # Default paths
-            default_installation = "/app/software/EnergyPlusV25-1-0"
+            default_installation = "/app/software/EnergyPlusV23-2-0"
             self.energyplus.installation_path = default_installation
             self.energyplus.idd_path = os.path.join(default_installation, "Energy+.idd")
             self.energyplus.executable_path = os.path.join(default_installation, "energyplus")
